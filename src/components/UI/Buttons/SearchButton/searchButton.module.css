@@ -1,0 +1,12 @@
+.searchButton {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.image {
+    height: 20px;
+}

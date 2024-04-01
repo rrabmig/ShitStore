@@ -1,0 +1,24 @@
+.productInfoContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 500px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+.right {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.productText {
+    padding: 10px;
+    margin-right: 60px;
+    font-size: large;
+}

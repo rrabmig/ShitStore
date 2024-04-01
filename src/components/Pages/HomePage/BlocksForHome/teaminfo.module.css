@@ -1,0 +1,13 @@
+.teamInfoContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 500px;
+}
+
+.employee {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}

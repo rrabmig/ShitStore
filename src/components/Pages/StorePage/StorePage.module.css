@@ -1,0 +1,37 @@
+.StorePage {
+    width: 98vw;
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 940px;
+}
+
+.navList {
+    margin-left: 10px;
+    width: 25%;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+.logo {
+    width: 90%;
+    margin: 15px;
+}
+
+.categoriesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #007bff;
+}
+
+.categoriesList li {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.categoriesList li:hover {
+    background-color: #0056b3;
+}

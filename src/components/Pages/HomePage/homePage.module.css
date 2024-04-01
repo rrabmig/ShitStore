@@ -1,0 +1,43 @@
+.homePage {
+    width: 100%;
+}
+
+.imageBackground{
+    width: 100%;
+    height: 500px;
+    background: url('./../../../images/3.Organicheskie_ydobrenia.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.navList{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.navList li{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #a51919;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.label1 {
+    width: fit-content;
+    position: relative;
+    top:70%;
+    left: 50px;
+    right: 20%;
+
+    color: aliceblue;
+    font-size: 4vw;
+    backdrop-filter: blur(10px);
+}
+
+.visitStore {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
