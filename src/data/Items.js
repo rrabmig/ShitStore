@@ -86,6 +86,53 @@ const Items = {navoz : [
             id: '2'
         },
 
+    ],
+    food:[
+        {
+            name: 'Меганожорный суп фон сопля',
+            description: ' Переваренное яйцо ',
+            src: 'https://sun9-80.userapi.com/impg/kMpozPi158YUtd9Lo77Q4wsOHpPpLEwd65usVQ/EdJPHJERLM0.jpg?size=451x519&quality=95&sign=5c1b548584afb3336b3abfdee8ab5831&type=album',
+            count: 4,
+            price: 500,
+            weight: 0.33,
+            id: '2'
+        },
+        {
+            name: 'Бизнес-ланч',
+            description: ' Прямо с обочин дорог',
+            src: 'https://sun9-71.userapi.com/impg/g9uV3FCMExDrlbQ--Dgph0kpghB9NE6EybMNeA/FB_9p6XBJcQ.jpg?size=1080x810&quality=96&sign=fda9821fdeaf713c1f8aff83f657aec0&type=album',
+            count: 4,
+            price: 500,
+            weight: 0.33,
+            id: '2'
+        },
+        {
+            name: 'Доброе советское мороженное',
+            description: ' Прямо с обочин дорог',
+            src: 'https://sun9-54.userapi.com/impg/1-LW1oahOmLq5mPBCvmA-EV9NIJbqpUpUjLtvA/DLddjd8JMrE.jpg?size=810x1080&quality=95&sign=e6bbf968b1ba6b1593d5d7d35858908b&type=album',
+            count: 4,
+            price: 500,
+            weight: 0.33,
+            id: '2'
+        },
+        {
+            name: 'Суп с летучей мышью',
+            description: ' Прямо с обочин дорог',
+            src: 'https://sun9-28.userapi.com/impg/v7L2iG641YqHyxiDT9kArEfvw6-RihB6RAGrsw/RsVT0SmE0SQ.jpg?size=1024x683&quality=95&sign=f2fde79a39fa539dc4e55d24ffa6dd8a&type=album',
+            count: 4,
+            price: 500,
+            weight: 0.33,
+            id: '2'
+        },
+        {
+            name: 'Рагу из собачей морды',
+            description: ' Прямо с обочин дорог',
+            src: 'https://sun1-99.userapi.com/impg/-PPWa5oi0t8aOZTK1yhLKrtU1V1YdLZ2tw7gNA/-bBN31I18Rc.jpg?size=720x960&quality=95&sign=b854ef1ac0ea662b5cc5b910d91c9d08&type=album',
+            count: 4,
+            price: 500,
+            weight: 0.33,
+            id: '2'
+        },
     ]
 }
 

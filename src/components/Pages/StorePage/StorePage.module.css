@@ -1,8 +1,13 @@
 .StorePage {
-    width: 98vw;
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 940px;
+}
+.content {
+    width: 100%;
+    min-height: 90vh;
     display: flex;
     flex-flow: row nowrap;
-    min-width: 940px;
 }
 
 .navList {
