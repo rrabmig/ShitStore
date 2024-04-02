@@ -1,0 +1,85 @@
+.aboutPage {
+    width: 100%;
+}
+
+
+
+.afterHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    background-image: url('http://static.tildacdn.com/tild6464-3235-4934-b139-623066633339/photo.jpg');
+}
+
+.afterHeader h1 {
+    font-size: 40px;
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px;
+
+}
+
+.photos {
+    width: 50%;
+}
+
+.photo {
+    width: 80%;
+}
+
+.photo1 {
+    position: relative;
+    top:5%;
+    left:35%;
+    width: 50%
+}
+
+.photo2 {
+    position: relative;
+    top:15%;
+    left:15%;
+    width: 60%
+}
+
+.photo3 {
+    position: relative;
+    top:5%;
+    left:10%;
+    width: 60%;
+    max-height: 40%;
+}
+
+.photo4 {
+    position: relative;
+    top:10%;
+    left:40%;
+    width: 30%;
+}
+.photo5 {
+    position: relative;
+    top:15%;
+    left:3%;
+    width: 70%;
+}
+.photo6 {
+    position: relative;
+    top:20%;
+    left:30%;
+    width: 60%;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.article {
+    width: 50%;
+    padding: 20px;
+}

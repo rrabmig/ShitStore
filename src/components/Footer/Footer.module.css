@@ -1,0 +1,27 @@
+.footer {
+    color: azure;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: #0056b3;
+}
+.footer p{
+    font-size: larger;
+}
+
+.columnContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.column {
+
+}
+
+.rights{
+    font-size: small;
+    color: rgb(135, 135, 135);
+    margin-left: 20px;
+    margin-top: 20px;
+}
