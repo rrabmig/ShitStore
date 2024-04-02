@@ -37,14 +37,6 @@ const StorePage = () => {
       <Header/>
       <div className={classes.content}>
         <nav className={classes.navList}>
-          <Link to='/'>
-            <img 
-                className={classes.logo}
-                src={require('./../../../images/LLWAbt6jKN0.jpg')}
-                alt='logo'
-            />
-          </Link>
-          
             Категории товаров
             <hr></hr>
             <ul className={classes.categoriesList}>

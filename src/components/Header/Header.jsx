@@ -8,9 +8,10 @@ const Header = () => {
     }
 
   return (
-    <header className={classes.header}>
+    <div className={classes.header}>
         <nav>
           <ul className={classes.navList} style={{listStyleType: 'none'}}>
+            <li><Link to='/'> <img className={classes.logo} src='/logo.jpg'/></Link></li>
             <li> <Link style={linkStyle} to='/team'>Наша команда</Link></li>
             <li> <Link style={linkStyle} to='/about'> О нас </Link></li>
             <li><Link style={linkStyle} to='/store'>Наши продукты</Link></li>
@@ -18,7 +19,7 @@ const Header = () => {
             <li>Корзина</li>
           </ul>
         </nav>
-    </header>
+    </div>
   )
 }
 

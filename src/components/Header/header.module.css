@@ -1,25 +1,30 @@
 
 .header {
     color :azure;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 10px;
     background-color: #0056b3;
     height: 100px;
+
+}
+
+.logo {
+    margin-top: -19px;
+    height: 90px;
 }
 
 
 .navList{
+    height: 100%;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    align-items: center;
 
     font-size: large;
     font-weight: 500;
 }
 
 .navList li{
-    margin: 5px;
+    height: 100%;
     padding: 5px;
     text-align: center;
     cursor: pointer;
