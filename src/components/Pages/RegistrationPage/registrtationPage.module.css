@@ -1,0 +1,13 @@
+.registrationPage {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+.content {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+

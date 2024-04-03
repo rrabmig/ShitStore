@@ -25,15 +25,30 @@ const AboutPage = () => {
           <p>История компании "NavozStore" - это история о том, как мечта и стремление к созданию здоровой и экологически чистой продукции привели к успеху и признанию как в масштабах страны, так и за ее пределами.</p>
         </div>
         <div className={classes.photos}>
-          <div className={classes.photo1}>
+          <div 
+            className={classes.photo1}
+            data-aos='fade-left'
+            data-aos-easing='ease-in-sine'
+            data-aos-duration='5000'
+            data-aos-once='true'
+            data-aos-anchor-placement="center-bottom"
+          >
             <img 
               className={classes.img}
               src='https://sun9-77.userapi.com/impg/Wrjl76lntFMcFZeFwIu61nDU7cKLaGa9HTuYZQ/oCY79tTM0IQ.jpg?size=1024x775&quality=95&sign=ddf8c445eafe313d1546345155e9d527&c_uniq_tag=6RrZUhJcCzYMy_vwivFpEnOcRdKlmTDpCKnjQLOZGH0&type=album' 
               alt='oldferm'
+             
             />
             <p>Ферма "Золотая лужа" 1980-е</p>
           </div>
-          <div className={classes.photo2}>
+          <div 
+            className={classes.photo2}
+            data-aos='fade-left'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
+          >
             <img 
               className={classes.img}
               src='https://pro-dachnikov.com/uploads/posts/2022-01/1642386782_13-pro-dachnikov-com-p-sovremennie-korovniki-foto-17.jpg' 
@@ -52,6 +67,11 @@ const AboutPage = () => {
                 className={classes.img}
                 src='https://bilder.bild.de/fotos/tiere-zum-mieten-45490310/Bild/1.bild.jpg' 
                 alt='oldferm'
+                data-aos='fade-right'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
               />
           </div>
           <div className={classes.photo4}>
@@ -59,6 +79,11 @@ const AboutPage = () => {
                 className={classes.img}
                 src='https://otvet.imgsmail.ru/download/279589980_7c009a289980f21170dcb01a52fe705b_800.jpg' 
                 alt='oldferm'
+                data-aos='fade-right'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
               />
           </div>
         </div>
@@ -86,6 +111,11 @@ const AboutPage = () => {
                 className={classes.img}
                 src='http://верх-исетский.екатеринбург.рф/media/news/news_93513_image_900x_.jpg' 
                 alt='oldferm'
+                data-aos='fade-left'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
               />
           </div>
           <div className={classes.photo1}>
@@ -93,6 +123,11 @@ const AboutPage = () => {
                 className={classes.img}
                 src='https://vmolo.by/wp-content/uploads/2019/07/2-61.jpg' 
                 alt='oldferm'
+                data-aos='fade-left'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
               />
           </div>
         </div>
@@ -104,6 +139,11 @@ const AboutPage = () => {
                   className={classes.img}
                   src='https://a.d-cd.net/nIAAAgIcR-A-1920.jpg' 
                   alt='oldferm'
+                  data-aos='fade-right'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
                 />
           </div>
           <div className={classes.photo6}> 
@@ -111,6 +151,11 @@ const AboutPage = () => {
                   className={classes.img}
                   src='https://eda-offline.com/wp-content/uploads/2018/10/god-svinji-11.jpg' 
                   alt='oldferm'
+                  data-aos='fade-right'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='5000'
+                  data-aos-once='true'
+                  data-aos-anchor-placement="center-bottom"
                 />
           </div>
         </div>
